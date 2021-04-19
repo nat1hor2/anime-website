@@ -1,0 +1,28 @@
+body {
+    background-color: #F2CEE6;
+    font-family: "raleway", sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 200;
+    background-color: #F0F3BD;
+    padding: 13px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+    width: fit-content;
+}

@@ -1,0 +1,1 @@
+alert("u stupid bitch motherfucker")

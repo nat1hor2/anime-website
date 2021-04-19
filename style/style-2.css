@@ -1,0 +1,56 @@
+body {
+    background-color: #F2CEE6;
+    font-family: "raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.heading h1 {
+    font-weight: 200;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.content {
+    padding: 0 6px;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.content h2 {
+    font-weight: 300;
+}
+
+.content p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+@media all and (min-width: 650px) {
+    .content img {
+        max-width: 638px;
+    }
+
+    .content p {
+        text-align: center;
+        max-width: 780px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .content h2 {
+        text-align: center;
+    }
+}
+
